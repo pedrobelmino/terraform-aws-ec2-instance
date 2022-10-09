@@ -4,5 +4,5 @@ resource "aws_vpc" "techtalks-vpc" {
     enable_dns_hostnames = "true" 
     enable_classiclink = "false"
     instance_tenancy = "default"    
-    
+    # virtual private cloud
 }
